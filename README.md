@@ -2,6 +2,12 @@
 
 A simple browser extension designed to hide certain elements on YouTube, such as the casting/play on TV button, the progress bar, and other UI components. Ideal for users who want a cleaner YouTube interface for better focus.
 
+## UI Example
+
+Below is an infographic showing how the YouTube UI looks when certain elements are hidden using the extension:
+
+![UI Infographic](https://github.com/s1umpg0d/Youtube-Element-Hider/blob/main/info%20YEH.png?raw=true)
+
 ## Features
 - Hide elements like:
   - **Progress bar**
@@ -10,7 +16,7 @@ A simple browser extension designed to hide certain elements on YouTube, such as
   - **Settings button**
   - **Fullscreen button**
   - **Cast/Play on TV button**
-  - And more!
+  - And more to come!
 
 ## Installation Instructions
 
