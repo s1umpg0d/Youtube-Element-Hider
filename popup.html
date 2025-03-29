@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>YouTube Element Hider</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            width: 200px;
+            padding: 10px;
+            margin: 0;
+            box-sizing: border-box;
+        }
+        h3 {
+            font-size: 16px;
+            margin-bottom: 10px;
+            text-align: center;
+            color: white; /* Set text color to white */
+        }
+        button {
+            display: block;
+            width: 100%;
+            margin: 5px 0;
+            padding: 10px;
+            border: none;
+            border-radius: 5px;
+            font-size: 14px;
+            cursor: pointer;
+            color: white;
+        }
+        .hidden {
+            background-color: red;
+        }
+        .visible {
+            background-color: green;
+        }
+    </style>
+</head>
+<body>
+    <h3>Hide Elements</h3>
+    <button id="progressBar" class="visible">Progress Bar</button>
+    <button id="playButton" class="visible">Play Button</button>
+    <button id="volumeSlider" class="visible">Volume Slider</button>
+    <button id="settingsButton" class="visible">Settings Button</button>
+    <button id="fullscreenButton" class="visible">Fullscreen Button</button>
+    <button id="castButton" class="visible">Play on TV Button</button>
+    <button id="feedFilter" class="visible">Feed Filter</button>
+    <script src="popup.js"></script>
+</body>
+</html>
